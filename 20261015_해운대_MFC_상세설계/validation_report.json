@@ -1,0 +1,21 @@
+{
+  "area_sum_sqm": 1818.18,
+  "racks": 224,
+  "shelf_levels": 872,
+  "shelf_bins": 2224,
+  "all_locations": 2257,
+  "physical_ea": 87540,
+  "operating_ea": 73113,
+  "normal_physical_ea": 77760,
+  "normal_operating_ea": 64800,
+  "checks": "area totals, unique location codes, F02, temperature properties on every rack, formulas and capacity sums, assumed weight bounds: PASS",
+  "final_checks": [
+    "All MD links and image targets exist",
+    "Rack profile formulas match Decimal arithmetic",
+    "2257 unique location codes; all F02",
+    "224 rack / 872 shelf / 2224 shelf bins",
+    "All rack and location temperature classes assigned",
+    "Total physical 87540EA; target 73113EA",
+    "Assumed weight caps only; actual structure not validated"
+  ]
+}

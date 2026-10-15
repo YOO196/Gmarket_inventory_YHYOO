@@ -1,0 +1,71 @@
+{
+  "by_area": {
+    "A": {
+      "cap": 4920,
+      "op": 4182,
+      "loc": 78
+    },
+    "B": {
+      "cap": 34560,
+      "op": 28800,
+      "loc": 640
+    },
+    "C": {
+      "cap": 43200,
+      "op": 36000,
+      "loc": 1440
+    },
+    "G": {
+      "cap": 2160,
+      "op": 1836,
+      "loc": 36
+    },
+    "H": {
+      "cap": 2160,
+      "op": 1836,
+      "loc": 36
+    },
+    "D": {
+      "cap": 160,
+      "op": 136,
+      "loc": 8
+    },
+    "E": {
+      "cap": 300,
+      "op": 255,
+      "loc": 15
+    },
+    "F": {
+      "cap": 80,
+      "op": 68,
+      "loc": 4
+    }
+  },
+  "by_temperature": {
+    "AMB": {
+      "cap": 50836,
+      "op": 42433,
+      "loc": 1329
+    },
+    "CHL": {
+      "cap": 22620,
+      "op": 18903,
+      "loc": 575
+    },
+    "FRZ": {
+      "cap": 14084,
+      "op": 11777,
+      "loc": 353
+    }
+  },
+  "normal_storage_ea": 77760,
+  "normal_operating_ea": 64800,
+  "total_all_states_ea": 87540,
+  "total_operating_all_states_ea": 73113,
+  "assumptions": {
+    "standard_ea_volume_m3": 0.003,
+    "standard_ea_weight_kg": 0.4,
+    "volume_fill_factor": 0.75,
+    "operating_target": 0.85
+  }
+}
